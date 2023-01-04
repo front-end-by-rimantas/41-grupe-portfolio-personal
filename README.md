@@ -71,6 +71,8 @@ There is no tests for this project.
 
 ## 🌚 Authors
 
+Rimantas: [Github](https://github.com/belauzas)
+<br>
 Domas: [Github](https://github.com/domukasm) [Linkedin](https://www.linkedin.com/in/domas-mak%C5%ABnas-47b5b2251/) [📸Instagram](https://www.instagram.com/spicelus/) <br>
 Adomas: [Github](https://github.com/AdomasKazlauskas)
 <br>
