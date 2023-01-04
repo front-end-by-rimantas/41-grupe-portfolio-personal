@@ -71,11 +71,15 @@ There is no tests for this project.
 
 ## 🌚 Authors
 
-Domas: [Github](https://github.com/domukasm) [Linkedin](https://www.linkedin.com/in/domas-mak%C5%ABnas-47b5b2251/) [📸Instagram](https://www.instagram.com/spicelus/)
+Domas: [Github](https://github.com/domukasm) [Linkedin](https://www.linkedin.com/in/domas-mak%C5%ABnas-47b5b2251/) [📸Instagram](https://www.instagram.com/spicelus/) <br>
 Adomas: [Github](https://github.com/AdomasKazlauskas)
+<br>
 Pijus: [Github](https://github.com/pijusp)
+<br>
 Simonas: [Github](https://github.com/SimonasLizaitis)
+<br>
 Rokas: [Github](https://github.com/RokasSweets)
+<br>
 Giedrius: [Github](https://github.com/giemaz)
 
 ## ⚠️ License
