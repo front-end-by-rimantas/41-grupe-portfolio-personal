@@ -1,0 +1,50 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+      sans-serif;
+}
+
+
+/* header/nav start */
+/* header/nav end  */
+
+/* hero/this is me start  */
+/* hero/this is me end  */
+
+/* section1/personal details start  */
+/* section1/personal details end  */
+
+/* section2/offered services start  */
+ /* section2/offered services end  */
+
+/* section3/statistics counter start  */
+/* section3/statistics counter end  */
+
+/* section4/gallery start  */
+/* section4/gallery end  */
+
+/* section5/feedback start  */
+/* section5/feedback end  */
+
+/* section6/buy plans start  */
+/* section6/buy plans end  */
+
+/* section7/blog posts start  */
+/* section7/blog posts end  */
+
+/* section8/labels start  */
+/* section8/labels end  */
+
+/* footer start  */
+/* footer end  */
