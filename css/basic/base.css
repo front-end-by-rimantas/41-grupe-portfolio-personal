@@ -1,0 +1,66 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+  --main-font: 'Poppins', sans-serif;
+  --bg-white: #fff;
+  --bg-gray: #F9F9FF;
+  --gradient: linear-gradient(to right, #8490FD , #63BCFC);
+  --title-color: #222222;
+  --text-color: #777777;
+  --text-line-height:  1.625em;
+}
+
+ html {
+  scroll-behavior: smooth;
+}
+
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+p{
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: var(--text-line-height);
+}
+
+/* header/nav start */
+/* header/nav end  */
+
+/* hero/this is me start  */
+/* hero/this is me end  */
+
+/* section1/personal details start  */
+/* section1/personal details end  */
+
+/* section2/offered services start  */
+ /* section2/offered services end  */
+
+/* section3/statistics counter start  */
+/* section3/statistics counter end  */
+
+/* section4/gallery start  */
+/* section4/gallery end  */
+
+/* section5/feedback start  */
+/* section5/feedback end  */
+
+/* section6/buy plans start  */
+/* section6/buy plans end  */
+
+/* section7/blog posts start  */
+/* section7/blog posts end  */
+
+/* section8/labels start  */
+/* section8/labels end  */
+
+/* footer start  */
+/* footer end  */
