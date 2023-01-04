@@ -21,7 +21,6 @@
 .container > .row {
     float: left;
     width: 100%;
-    background-color: rgb(245, 228, 231);
 }
 .container > .row + .row {
     margin-top: 20px;
