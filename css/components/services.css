@@ -10,12 +10,12 @@
 .grid-container-service {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    --w: 1110px;
+    --w: 1140px;
     width: var(--w);
     margin: 0 calc((100% - var(--w)) / 2);
 }
 
-.row {
+.row-service {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -23,21 +23,21 @@
     box-sizing: border-box;
     margin-left: -15px;
     margin-right: -15px;
-    --w: 635px;
+    --w: 650px;
     width: var(--w);
     margin: 0 calc((100% - var(--w)) / 2);
 }
 
-.row > h2 {
+.row-service > h2 {
     font-size: 36px;
     color: rgb(34, 34, 34);
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
     margin-bottom: 10px;
     line-height: var(--text-line-height);
 }
 
-.row > p {
+.row-service > p {
     color: rgb(119, 119, 119);
     margin-bottom: 16px;
     text-align: center;
@@ -47,10 +47,10 @@
     box-sizing: border-box;
 }
 
-.grid-item{
+.grid-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: baseline;
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -75,6 +75,18 @@
     font-weight: 300;
     line-height: var(--text-line-height);
     margin: 0px 16px 16px 16px;
+}
+
+/* reiks dar grizt prie gradient*/
+
+.services .grid-item:hover .service-icon {
+    color: #8490ff;
+    transition: all 0.6s
+}
+
+.services .grid-item:hover .service-title {
+    color: #8490ff;
+    transition: all 0.3s
 }
 
 /* section2/offered services end  */
