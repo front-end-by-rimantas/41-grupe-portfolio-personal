@@ -1,2 +1,37 @@
 /* footer start  */
+.footer {
+    background-color: #04091e;
+}
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 20px;
+}
+.footer span {
+    padding-top: 5px;
+}
+.footer p > a {
+    text-decoration: none;
+    color: #8490ff;
+}
+.footer > .row .titles {
+    text-transform: capitalize;
+    padding: 25px 0;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+.socials-icon {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+.socials-icon:hover {
+    color: #8490ff;
+}
 /* footer end  */
