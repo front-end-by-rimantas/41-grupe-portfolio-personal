@@ -15,7 +15,7 @@
             "files": "*.html",
             "options": {
                 "tabWidth": 4,
-                "printWidth": 120
+                "printWidth": 1000
             },
             "excludeFiles": "*.min.css"
         },

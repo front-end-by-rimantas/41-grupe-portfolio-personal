@@ -1,2 +1,75 @@
 /* hero/this is me start  */
+.hero {
+    display: flex;
+    background-color: var(--bg-gray);
+    width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    padding-bottom: 0;
+}
+
+.hero-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: auto;
+}
+
+.hero-img > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-intro {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.hero-description {
+    padding-right: 2rem;
+    margin: 2rem 0;
+}
+.hero-btn {
+    background: var(--gradient);
+    padding: 10px, 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero-title {
+        line-height: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-wrap {
+        flex-direction: column;
+    }
+
+    .hero-img {
+        margin-top: 30px;
+    }
+
+    .hero-description {
+        padding-right: 0;
+    }
+}
 /* hero/this is me end  */
