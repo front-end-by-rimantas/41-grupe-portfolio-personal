@@ -68,6 +68,11 @@
     margin-bottom: 20px;
 }
 
+.grid-item > .service-icon {
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
 .grid-item > p {
     color: rgb(119, 119, 119);
     text-align: center;
@@ -76,8 +81,6 @@
     line-height: var(--text-line-height);
     margin: 0px 16px 16px 16px;
 }
-
-/* reiks dar grizt prie gradient*/
 
 .services .grid-item:hover .service-icon {
     color: #8490ff;
@@ -89,4 +92,25 @@
     transition: all 0.3s
 }
 
+@media (max-width: 1199px) {
+    .grid-container-service { 
+        --w: 960px;
+    }
+
+    .row-service {
+        --w: 530px;
+    }
+
+    .grid-container-service .grid-item > p {
+        margin: 0px 0px 16px 0px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
 /* section2/offered services end  */
