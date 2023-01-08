@@ -10,13 +10,6 @@
     padding-bottom: 0;
 }
 
-.hero-wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    align-items: center;
-}
 .greeting {
     display: flex;
     flex-direction: column;
@@ -48,10 +41,6 @@
     padding-right: 2rem;
     margin: 2rem 0;
 }
-.hero-btn {
-    background: var(--gradient);
-    padding: 10px, 30px;
-}
 
 @media only screen and (max-width: 1024px) {
     .hero-title {
@@ -60,16 +49,8 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .hero-wrap {
-        flex-direction: column;
-    }
-
     .hero-img {
         margin-top: 30px;
-    }
-
-    .hero-description {
-        padding-right: 0;
     }
 }
 /* hero/this is me end  */
