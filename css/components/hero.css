@@ -7,14 +7,11 @@
 }
 
 .hero-container {
+    margin-top: 50px;
     padding-bottom: 0;
 }
-
 .hero-wrap {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
     align-items: center;
 }
 .greeting {
@@ -23,6 +20,7 @@
     align-items: start;
     justify-content: start;
     height: auto;
+    padding: 0 15px;
 }
 
 .hero-img > img {
@@ -39,37 +37,23 @@
 
 .hero-title {
     font-weight: 600;
-    font-size: 4rem;
+    font-size: 60px;
     text-transform: uppercase;
-    margin-bottom: 0;
+    margin: 20px 0;
+    line-height: 1;
 }
 
 .hero-description {
     padding-right: 2rem;
-    margin: 2rem 0;
-}
-.hero-btn {
-    background: var(--gradient);
-    padding: 10px, 30px;
-}
-
-@media only screen and (max-width: 1024px) {
-    .hero-title {
-        line-height: 1;
-    }
+    margin: 0 0 16px;
 }
 
 @media only screen and (max-width: 768px) {
-    .hero-wrap {
-        flex-direction: column;
-    }
-
     .hero-img {
         margin-top: 30px;
     }
-
-    .hero-description {
-        padding-right: 0;
+    .hero-wrap {
+        flex-direction: column;
     }
 }
 /* hero/this is me end  */
