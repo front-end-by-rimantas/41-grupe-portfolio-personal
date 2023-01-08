@@ -1,2 +1,46 @@
 /* section1/personal details start  */
+.about-me {
+    background-color: #fff;
+    padding-top: 120px;
+}
+.about-me > .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-me-intro {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.about-me-title {
+    text-transform: uppercase;
+    font-size: 36px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    line-height: 1.625em;
+}
+.about-me-description {
+    text-transform: none;
+    max-width: 445px;
+    padding-bottom:30px;
+
+}
+.about-me-img {
+    height: auto;
+    max-width: 100%;
+}
+@media (max-width: 768px) {
+    .about-me > .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media (max-width: 992px) {
+    .about-me > .about-me-title {
+        font-size: 20px;
+    }
+}
 /* section1/personal details end  */
