@@ -1,0 +1,14 @@
+@import '../basic/base.css';
+@import '../basic/layout.css';
+@import '../components/navbar.css';
+@import '../components/blog-posts.css';
+@import '../components/buy-plans.css';
+@import '../components/feedback.css';
+@import '../components/footer.css';
+@import '../components/gallery.css';
+@import '../components/hero.css';
+@import '../components/labels.css';
+@import '../components/personal-details.css';
+@import '../components/services.css';
+@import '../components/statistics-counter.css';
+@import '../components/button.css';

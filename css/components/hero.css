@@ -1,0 +1,59 @@
+/* hero/this is me start  */
+.hero {
+    display: flex;
+    background-color: var(--bg-gray);
+    width: 100%;
+    height: auto;
+}
+
+.hero-container {
+    margin-top: 50px;
+    padding-bottom: 0;
+}
+.hero-wrap {
+    display: flex;
+    align-items: center;
+}
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    height: auto;
+    padding: 0 15px;
+}
+
+.hero-img > img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-intro {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    line-height: 1;
+}
+
+.hero-description {
+    padding-right: 2rem;
+    margin: 0 0 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-img {
+        margin-top: 30px;
+    }
+    .hero-wrap {
+        flex-direction: column;
+    }
+}
+/* hero/this is me end  */

@@ -1,0 +1,30 @@
+.btn {
+    display: inline-block;
+}
+.hero-btn {
+    background: var(--gradient);
+    color: var(--bg-white);
+    display: inline-block;
+    padding: 0.5em 2em;
+    font-family: var(--main-font);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: center;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    box-shadow: 0px 27px 14px 0px rgba(132, 144, 253, 0.3);
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        width: 100%;
+    }
+    .hero-btn {
+        width: 100%;
+    }
+}
