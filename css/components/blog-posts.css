@@ -56,12 +56,20 @@
     position: relative;
     width: 380px;
     cursor: pointer;
-    overflow: hidden;
 }
 
 .part-of-blog:hover > .text-title > a {
     color: #8490ff;
     transition: 0.3s;
+}
+
+.blog-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-image > img {
+    overflow: hidden;
 }
 
 .blog-image:hover > img {
