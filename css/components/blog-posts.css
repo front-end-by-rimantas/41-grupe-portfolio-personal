@@ -178,10 +178,34 @@
 }
 
 @media (max-width: 767px) {
-    
+    .blog-title {
+        --w: 540px;
+    }
+    .blog-pages {
+        --w: 570px;
+        grid-template-columns: 1fr;
+    }
+    .part-of-blog {
+        margin-bottom: 30px;
+    }
+    .blog-pages .blog-image > img {
+        width: 100%;
+    }
+    .about-blog > .blog-info {
+        padding-top: 0;
+    }
 }
 
 @media (max-width: 320px) {
-    
+    .blog-title {
+        --w: 303px;
+    }
+    .blog-pages {
+        --w: 333px;
+        grid-template-columns: 1fr;
+    }
+    .part-of-blog {
+        margin-bottom: 30px;
+    }
 }
 /* section7/blog posts end  */
