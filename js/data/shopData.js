@@ -9,7 +9,7 @@ const shopData = [
     },
     {
         title: 'Business',
-        description: 'For stingy people',
+        description: 'For normies',
         firstPerk: 'Secure Online Transfer',
         secondPerk: 'Unlimited Styles for interface',
         thirdPerk: 'Bare bones off our stuff',
@@ -17,7 +17,7 @@ const shopData = [
     },
     {
         title: 'Premium',
-        description: 'For stingy people',
+        description: 'For average clients',
         firstPerk: 'Secure Online Transfer',
         secondPerk: 'Unlimited Styles for interface',
         thirdPerk: 'Your Wallet Loving Attitude',
@@ -25,7 +25,7 @@ const shopData = [
     },
     {
         title: 'Exclusive',
-        description: 'For stingy people',
+        description: 'For cash cows',
         firstPerk: 'Secure Online Transfer',
         secondPerk: 'Unlimited Styles for interface',
         thirdPerk: 'Bling and Swag',
