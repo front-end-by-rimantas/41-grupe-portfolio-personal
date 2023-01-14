@@ -31,17 +31,23 @@ class IsValid {
         return true;
     }
 
-    static icon(str) {
+    static sCardTitle(str) {
         const maxSize = 12;
         if (!IsValid.stringSizeInRange(str, maxSize)) {
             return false;
         }
         return true;
     }
-
-    static text(str) {
-        const maxSize = 15;
+    static sCardDescription(str) {
+        const maxSize = 20;
         if (!IsValid.stringSizeInRange(str, maxSize)) {
+            return false;
+        }
+        return true;
+    }
+    static sCardPerks(arr) {
+        const fixedLength = 3;
+        if (!IsValid.nonEmptyArray(arr || arr.length !== fixedLength)) {
             return false;
         }
         return true;
