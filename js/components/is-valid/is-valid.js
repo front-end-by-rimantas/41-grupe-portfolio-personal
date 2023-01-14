@@ -45,7 +45,7 @@ class IsValid {
         }
         return true;
     }
-    static sCardPerks(arr) {
+    static sCardFirstPerk(arr) {
         const fixedLength = 3;
         if (!IsValid.nonEmptyArray(arr || arr.length !== fixedLength)) {
             return false;
