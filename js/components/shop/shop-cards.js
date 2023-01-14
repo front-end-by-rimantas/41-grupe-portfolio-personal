@@ -15,16 +15,16 @@ function shop(selector, data) {
     }
 
     let HTML = '';
-
+    let nr = 1;
     for (const item of data) {
-        let nr = 0;
         if (
             !IsValid.object(item) ||
             !IsValid.sCardTitle(item.title) ||
             !IsValid.sCardDescription(item.description) ||
-            !IsValid.sCardPerks(item.firstPerk) ||
-            !IsValid.sCardPerks(item.secondPerk) ||
-            !IsValid.sCardPerks(item.thirdPerk)
+            !IsValid.sCardPerk(item.firstPerk) ||
+            !IsValid.sCardPerk(item.secondPerk) ||
+            !IsValid.sCardPerk(item.thirdPerk) ||
+            !IsValid.sPrice(item.price)
         ) {
             continue;
         }
@@ -37,7 +37,7 @@ function shop(selector, data) {
         </div>
         <div class="c-title-wrapper">
             <h4 class="c-title c-text">${item.title}</h4>
-            < class="c-title-description c-text">${item.description}
+            <p class="c-title-description c-text">${item.description}</p>
         </div>
         <div class="c-list">
             <div class="c-list-item"><p class="c-text">${
@@ -51,7 +51,7 @@ function shop(selector, data) {
             }</p></div>
         </div>
         <div class="price-wrap">
-            <h3 class="item-price"><span>&euro;</span> 199.00</h3>
+            <h3 class="item-price"><span>&euro;</span>${item.price}</h3>
             <a class="buy-btn" href="#">Buy Now</a>
         </div>
     </div>`;
