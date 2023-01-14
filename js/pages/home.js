@@ -11,7 +11,6 @@ import { shopData } from '../data/hobbiesData.js';
 /* hero end */
 
 /* personal start */
-shop('shop', shopData);
 /* personal end */
 
 /* services start */
@@ -27,6 +26,7 @@ shop('shop', shopData);
 /* feedback end */
 
 /* shop start */
+shop('shop', shopData);
 /* shop end */
 
 /* blog start */
