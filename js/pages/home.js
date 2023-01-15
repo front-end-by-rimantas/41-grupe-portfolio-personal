@@ -1,6 +1,8 @@
 // IMPORT
 import { shop } from '../components/shop/shop-cards.js';
 import { shopData } from '../data/shopData.js';
+import { labels3 } from '../data/labelsData.js';
+import { labels } from '../components/labels/labels.js';
 
 // EXECUTION
 
@@ -33,6 +35,7 @@ shop('shop', shopData);
 /* blog end */
 
 /* Brand slideshow start */
+labels('labels-container', labels3);
 /* Brand slideshow end */
 
 /* footer start */
