@@ -3,17 +3,30 @@
 .labels-container {
     background-image: var(--gradient);
 }
+.slider {
+    overflow: hidden;
+}
 
 .labels-wrap {
     display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    gap: 120px;
+    /* gap: 120px; */
     justify-content: center;
     overflow: hidden;
     width: 100%;
     height: 100px;
+    width: calc(250px * 15);
+    animation: scroll 10s linear infinite;
+}
+.labels-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+    padding-left: 20px;
 }
 .labels-img > img {
     margin: 0, auto;
@@ -25,3 +38,11 @@
 }
 
 /* section8/labels end  */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 5));
+    }
+}
