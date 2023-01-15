@@ -25,6 +25,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./css/pages/home.css" />
         <!-- basic css end -->
+
+        <!-- Js imports start -->
+        <script src="./js/pages/home.js" type="module" defer></script>
+        <!-- Js imports end -->
         <title>Portfolio</title>
     </head>
 
@@ -35,9 +39,9 @@
                 <div class="row">
                     <div class="col-12 visible-flex">
                         <img class="logo" src="./img/header_logo.png" alt="logo" />
-                        <i class="fa fa-bars hidden-lg"></i>
+                        <i class="fa fa-bars hidden-lg mobile-nav-toggle"></i>
                         <div class="blur-box">
-                        <nav class="nav-menu">
+                        <nav class="nav-menu" data-visible="false">
                             <a class="mobile-link" href="#">Home</a>
                             <a class="mobile-link" href="#">About</a>
                             <a class="mobile-link" href="#">Services</a>
