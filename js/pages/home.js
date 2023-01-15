@@ -1,6 +1,6 @@
 // IMPORT
 import { shop } from '../components/shop/shop-cards.js';
-import { shopData } from '../data/hobbiesData.js';
+import { shopData } from '../data/shopData.js';
 
 // EXECUTION
 

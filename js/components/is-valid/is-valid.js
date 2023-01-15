@@ -17,9 +17,9 @@ class IsValid {
         return true;
     }
 
-    static stringSizeInRange(str, max = 20, min = 1) {
+    static stringSizeInRange(str, max = 50, min = 1) {
         if (!IsValid.positiveInteger(max)) {
-            max = 20;
+            max = 50;
         }
         if (!IsValid.positiveInteger(min)) {
             min = 1;
@@ -30,7 +30,7 @@ class IsValid {
         }
         return true;
     }
-
+    // shop js start
     static sCardTitle(str) {
         const maxSize = 12;
         if (!IsValid.stringSizeInRange(str, maxSize)) {
@@ -39,19 +39,27 @@ class IsValid {
         return true;
     }
     static sCardDescription(str) {
-        const maxSize = 20;
+        const maxSize = 30;
         if (!IsValid.stringSizeInRange(str, maxSize)) {
             return false;
         }
         return true;
     }
-    static sCardFirstPerk(arr) {
-        const fixedLength = 3;
-        if (!IsValid.nonEmptyArray(arr || arr.length !== fixedLength)) {
+    static sCardPerk(str) {
+        const maxSize = 50;
+        if (!IsValid.stringSizeInRange(str, maxSize)) {
             return false;
         }
         return true;
     }
+
+    static sPrice(num) {
+        if (!IsValid.positiveInteger(num)) {
+            return false;
+        }
+        return true;
+    }
+    // shop js end
 }
 
 export { IsValid };
