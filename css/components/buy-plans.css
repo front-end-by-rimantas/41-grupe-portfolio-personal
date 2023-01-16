@@ -145,6 +145,7 @@
     cursor: pointer;
     transform: scale(1.1);
     background-image: var(--gradient);
+    z-index: 2;
 }
 .shop-card:hover .c-text {
     color: var(--bg-white);
@@ -152,6 +153,10 @@
 
 .shop-card:hover .c-number {
     background-image: var(--gradient);
+}
+
+.shop-card:hover + .shop-card {
+    z-index: 0;
 }
 
 .shop-card:hover .buy-btn {
