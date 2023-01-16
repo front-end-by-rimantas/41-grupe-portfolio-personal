@@ -83,13 +83,22 @@
 }
 
 .services .grid-item:hover .service-icon {
-    color: #8490ff;
-    transition: all 0.6s
+    color: transparent;
+    background: linear-gradient(to right, #8490fd, #63bcfc);
+    -webkit-background-clip: text;
+    transition: all 0.6s;
 }
 
 .services .grid-item:hover .service-title {
-    color: #8490ff;
-    transition: all 0.3s
+    color: transparent;
+    background: linear-gradient(to right, #8490fd, #63bcfc);
+    -webkit-background-clip: text;
+    transition: all 0.3s;
+}
+
+.grid-container-service ::selection {
+    background-color: #8490ff;
+    color: white;
 }
 
 @media (max-width: 1199px) {
@@ -134,6 +143,25 @@
     .grid-container-service .grid-item > p {
         margin: 0px 96px 16px 96px;
 
+    }
+}
+
+@media (max-width: 320px) {
+    .row-service {
+        --w: 273px;
+    }
+
+    .row-service > h2 {
+        line-height: 1.2em;
+    }
+
+    .grid-container-service { 
+        --w: 303px;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container-service .grid-item > p {
+        margin: 0px 0px 16px 0px;
     }
 }
 /* section2/offered services end  */
