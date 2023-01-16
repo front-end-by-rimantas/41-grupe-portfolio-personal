@@ -19,7 +19,6 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 body {
