@@ -168,6 +168,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .shop-info {
+        margin: 0 15px;
+    }
     .shop-card {
         width: 50%;
     }
