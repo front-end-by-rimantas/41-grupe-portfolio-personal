@@ -1,6 +1,5 @@
 /* section7/blog posts start  */
 
-
 .blog .container {
     background-color: #f9f9ff;
     padding: 120px 0px 120px 0px;
@@ -78,7 +77,7 @@
     transition: 0.5s;
 }
 
-.part-of-blog .blog-image> img {
+.part-of-blog .blog-image > img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -159,7 +158,6 @@
     .blog-pages {
         --w: 990px;
     }
-
 }
 
 @media (max-width: 991px) {
@@ -178,6 +176,12 @@
 }
 
 @media (max-width: 767px) {
+    .blog .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .blog-title {
         --w: 540px;
     }
