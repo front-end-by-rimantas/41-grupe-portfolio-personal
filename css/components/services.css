@@ -146,6 +146,21 @@
     }
 }
 
+@media (max-width: 576px) {
+    .row-service {
+        --w: 290px;
+    }
+
+    .grid-container-service { 
+        --w: 320px;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container-service .grid-item > p {
+        margin: 0px 0px 16px 0px;
+    }
+}
+
 @media (max-width: 320px) {
     .row-service {
         --w: 273px;
