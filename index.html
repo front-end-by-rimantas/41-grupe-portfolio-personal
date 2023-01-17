@@ -25,6 +25,10 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="./css/pages/home.css" />
         <!-- basic css end -->
+
+        <!-- Js imports start -->
+        <script src="./js/pages/home.js" type="module" defer></script>
+        <!-- Js imports end -->
         <title>Portfolio</title>
     </head>
 
@@ -32,22 +36,21 @@
         <main>
             <!-- header/nav start -->
             <header id="header" class="header-container">
-                <div class="header-row">
-                    <div class="visible-flex nav-wrap">
+                <div class="row">
+                    <div class="col-12 visible-flex nav-wrap">
+                        <div class="page-mask" data-visible="false"></div>
                         <img class="logo" src="./img/header_logo.png" alt="logo" />
-                        <nav class="nav-menu">
-                            <a href="#">Home</a>
-                            <a href="#">About</a>
-                            <a href="#">Services</a>
-                            <a href="#">Portfolio</a>
-                            <a href="#">Pricing</a>
-                            <a href="#">Blog</a>
-                            <a href="#">Pages</a>
-                            <a href="#">Contact</a>
-                        </nav>
-                        <button class="navbar_toggle">
-                            <i class="fas fa-bars"></i>
-                        </button>
+                        <nav class="nav-menu" data-visible="false">
+                            <a class="mobile-link" href="#">Home</a>
+                            <a class="mobile-link" href="#">About</a>
+                            <a class="mobile-link" href="#">Services</a>
+                            <a class="mobile-link" href="#">Portfolio</a>
+                            <a class="mobile-link" href="#">Pricing</a>
+                            <a class="mobile-link" href="#">Blog</a>
+                            <a class="mobile-link" href="#">Pages</a>
+                            <a class="mobile-link" href="#">Contact</a>
+                        </nav>  
+                        <button class="mobile-nav-toggle"><i class="fa fa-bars hidden-lg"></i></button>
                     </div>
                 </div>
             </header>
@@ -251,8 +254,8 @@
                 <div class="container shop-container">
                     <div class="row">
                         <div class="shop-info">
-                            <div class="col-12 shop-title"><h2>Choose Your Plan</h2></div>
-                            <div class="col-12 shop-description">
+                            <div class="col-12 shop-title" style="text-align: center;"><h2>Choose Your Plan</h2></div>
+                            <div class="col-12 shop-description" style="text-align: center;">
                                 <p>When someone does something that they know that they shouldnt do, did they.</p>
                             </div>
                         </div>
@@ -265,11 +268,11 @@
             <!-- section7/blog posts start -->
             <section class="blog">
                 <div class="container blog-container">
-                    <div class="row blog-title">
+                    <div class="blog-title">
                         <h2>Latest Posts From Our Blog</h2>
                         <p>You may be a skillful, effective employer but if you don&apos;t trust your personnel and the opposite, then the chances of improving and expanding the business</p>
                     </div>
-                    <div class="row blog-pages">
+                    <div class="blog-pages">
                         <div class="part-of-blog">
                             <div class="blog-image">
                                 <img src="./img/blogposts/b1.png" alt="city" />

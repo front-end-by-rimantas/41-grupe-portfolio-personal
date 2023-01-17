@@ -4,10 +4,12 @@ import { shopData } from '../data/shopData.js';
 import { labels3 } from '../data/labelsData.js';
 import { labels } from '../components/labels/labels.js';
 import Drag from '../components/labels/labelsDrag.js';
+import renderMobileNav from '../components/navbar/navToggle.js';
 
 // EXECUTION
 
 /* header start */
+renderMobileNav();
 /* header end */
 
 /* hero start */

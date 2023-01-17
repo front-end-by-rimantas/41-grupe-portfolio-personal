@@ -1,10 +1,10 @@
 /* header/nav start */
 .header-container {
     background-color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     position: fixed;
-    z-index: 10;
     width: 100%;
+    z-index: 10;
 }
 
 .header-scrolled {
@@ -16,7 +16,6 @@
     justify-content: space-between;
     align-items: center;
 }
-
 .nav-menu a {
     text-decoration: none;
     font-size: 12px;
@@ -35,36 +34,67 @@
     color: #8490ff;
 }
 
-.navbar_toggle {
+@media only screen and (max-width: 992px) {
+    .page-mask {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    transform: translateX(-100%);
+    }
+    .page-mask[data-visible=true] {
+    transform: translateX(0%);
+    }
+    .nav-menu {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    padding-top: 18px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    left: 0px;
+    width: 260px;
+    overflow-y: auto;
+    transition: 0.4s;
+    transform: translateX(-100%);
+    z-index: 2;
+    }
+    .nav-menu[data-visible="true"] {
+    transform: translateX(0%);
+    }
+    .nav-menu > .mobile-link {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 22px 10px 15px;
+    font-weight:400;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    }
+    .nav-menu > :first-child {
+    color: #8490ff; 
+    }
+    .mobile-nav-toggle{
+    display: flex;
+    align-self: flex-end;
     margin-left: 5%;
+    margin-right: 5%;
     font-size: 30px;
-    color: var(--main-color);
+    color: var(--text-color);
     background: transparent;
     border-color: transparent;
     transition: all 0.3s linear;
     cursor: pointer;
-    display: none;
+    z-index: 3;
+    }
+    .logo {
+    padding-left: 5%;
+    }
 }
 /* header/nav end  */
-@media only screen and (max-width: 768px) {
-    .nav-wrap {
-        justify-content: space-between;
-    }
-    .nav-menu {
-        display: none;
-    }
-
-    .navbar_toggle {
-        display: flex;
-        justify-content: flex-end;
-        margin-left: 5%;
-        margin-right: 5%;
-        font-size: 30px;
-        color: var(--text-color);
-        background: transparent;
-        border-color: transparent;
-        transition: all 0.3s linear;
-        cursor: pointer;
-        display: block;
-    }
-}
