@@ -30,9 +30,6 @@
 .nav-menu > a:hover {
     color: #8490ff;
 }
-.logo {
-    padding-left: 5%;
-}
 
 @media only screen and (max-width: 992px) {
     .page-mask {
@@ -92,6 +89,9 @@
     transition: all 0.3s linear;
     cursor: pointer;
     z-index: 3;
+    }
+    .logo {
+    padding-left: 5%;
     }
 }
 /* header/nav end  */
