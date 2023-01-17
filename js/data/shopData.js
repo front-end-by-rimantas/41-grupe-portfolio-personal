@@ -20,7 +20,7 @@ const shopData = [
         description: 'For average clients',
         firstPerk: 'Secure Online Transfer',
         secondPerk: 'Unlimited Styles for interface',
-        thirdPerk: 'Your Wallet Loving Attitude',
+        thirdPerk: 'Attitude to your wallet',
         price: 399,
     },
     {
