@@ -1,11 +1,20 @@
 /* header/nav start */
 .header-container {
-    background-color: #fff;
-    padding: 10px 0;
-    position: fixed;
-    z-index: 10;
     width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
+.main-menu {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 
 .header-scrolled {
     transition: all 0.5s;
@@ -14,7 +23,6 @@
 
 .header-container > .row > .visible-flex {
     justify-content: space-between;
-    align-items: center;
 }
 
 .nav-menu a {
@@ -46,7 +54,7 @@
     display: none;
 }
 /* header/nav end  */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .nav-wrap {
         justify-content: space-between;
     }
