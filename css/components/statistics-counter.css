@@ -4,12 +4,6 @@
     padding: 100px;
 }
 
-.counterbox > h3 {
-    font-weight: bold;
-    font-size: 36px;
-    text-align: center;
-}
-
 .counterbox > p {
     color: white;
     text-align: center;
@@ -17,4 +11,10 @@
     font-weight: 300;
     line-height: var(--text-line-height);
     margin-top: -8px;
+}
+
+.counter-animation {
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
 }

@@ -9,6 +9,7 @@
     margin-bottom: 4px;
 }
 
+.gallery-row,
 .gallery-display {
     display: flex;
     justify-content: center;
@@ -18,6 +19,10 @@
 .pic-gallery {
     text-align: center;
     max-width: 1100px;
+}
+.gallery-img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .gallery-description {
@@ -34,4 +39,10 @@
     color: #777777;
     font-size: 14px;
     font-weight: 300;
+}
+@media only screen and (max-width: 425px) {
+    .pic-wrap > img {
+        height: auto;
+        width: 90%;
+    }
 }
