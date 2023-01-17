@@ -1,6 +1,9 @@
 /* header/nav start */
 .header-container {
+    background-color: #fff;
     width: 100%;
+    position: fixed;
+    z-index: 1000;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
