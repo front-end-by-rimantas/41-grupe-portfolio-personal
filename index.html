@@ -230,14 +230,28 @@
                         <p>It is very easy to start smoking but it is an uphill task to quit it. Ask any chain smoker or even a person.</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="feedback-box col-12 col-lg-6">
+            </section>
+            <section style="margin-top: -60px;" class="container feedback-container">
+                <div class="owl-carousel row">
+                    <div class="feedback-box col-12">
                         <img class="" src="./img/feedback/user1.png" alt="user1" />
                         <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff.</p>
                         <h1>Harriet Maxwell</h1>
                         <p1>CEO at Google</p1>
                     </div>
-                    <div class="feedback-box col-12 col-lg-6">
+                    <div class="feedback-box col-12">
+                        <img src="./img/feedback/user2.png" alt="user2" />
+                        <p>A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However...</p>
+                        <h1>Carolyn Craig</h1>
+                        <p1>CEO at Facebook</p1>
+                    </div>
+                    <div class="feedback-box col-12">
+                        <img class="" src="./img/feedback/user1.png" alt="user1" />
+                        <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff.</p>
+                        <h1>Harriet Maxwell</h1>
+                        <p1>CEO at Google</p1>
+                    </div>
+                    <div class="feedback-box col-12">
                         <img src="./img/feedback/user2.png" alt="user2" />
                         <p>A purpose is the eternal condition for success. Every former smoker can tell you just how hard it is to stop smoking cigarettes. However...</p>
                         <h1>Carolyn Craig</h1>
@@ -387,6 +401,28 @@
             <script src="./js/pages/home.js" type="module" defer></script>
             <script src="./js/components/headerShadow/headerShadow.js" type="module" defer></script>
             <script src="./js/components/statistics-counter/counter-animation.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="./js/components/feedback-carousel/owl.carousel.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                    $(".owl-carousel").owlCarousel({
+                        nav: true,
+                        navText: ["<i style='font-size: 50px; margin: 10px' class='fa fa-angle-left'></i>","<i style='font-size: 50px; margin: 10px' class='fa fa-angle-right'></i>"],
+                        margin: 20,
+                        autoplay: true,
+                        items: 2,
+                        loop: true,
+                        responsive: {
+                            0 : {
+                                items: 1
+                            },
+                            992 : {
+                                items: 2
+                            }
+                        }
+                    });
+                });
+            </script>
         </main>
     </body>
 </html>
