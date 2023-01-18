@@ -29,7 +29,7 @@ function shop(selector, data) {
             continue;
         }
 
-        HTML += `<div class="col-12 col-md-6 col-lg-3 shop-card">
+        HTML += `<div class="col-12 col-md-6  shop-card">
         <div class="c-top">
             <div class="c-number-bg">
                 <div class="c-number"><h3 class="c-text">${nr++}</h3></div>
